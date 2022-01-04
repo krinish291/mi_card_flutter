@@ -14,6 +14,8 @@ class MyApp extends StatelessWidget {
         body:SafeArea(
          child:  Center(
            child: Column(
+             crossAxisAlignment: CrossAxisAlignment.center,
+             
              children: [
                CircleAvatar(
                  backgroundColor: Colors.yellow,
